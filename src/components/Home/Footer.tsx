@@ -15,7 +15,6 @@ import LinearProgress from "@material-ui/core/LinearProgress";
 const FooterContainer = styled.div`
     width: 100%;
     height:650px;
-    background-image: url(/footerImage.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -209,7 +208,7 @@ const Footer: React.FC<Props> = ({ limitItemNum, ownEthValue, changeAmount, amou
 
     return (
         <div style={{ width: '100%' }}>
-            <FooterContainer id="footer">
+            {/* <FooterContainer id="footer">
                 <CalArea>
                     <LogoTitle2>{limitItemNum} NFT’S</LogoTitle2>
                     <CalContent>
@@ -229,7 +228,6 @@ const Footer: React.FC<Props> = ({ limitItemNum, ownEthValue, changeAmount, amou
                         <LogoTitle>TOTAL PRICE</LogoTitle>
                         <LogoTitle1>{totalPrice} ETH</LogoTitle1>
                     </CalContent1>
-                    {/* <LogoTitle style={{ color: 'white', fontSize: 14, width: '100%', marginBottom: -10 }}>WE ARE OFFICIALLY SOLD OUT!</LogoTitle> */}
                     <LogoTitle5 style={{ color: 'white', fontSize: 20, width: 70, height: 30, borderRadius: 10, justifyContent: 'center', marginBottom: -10, paddingTop: 4, backgroundColor: "#D35BFF" }} onClick={buyHandler}>Buy</LogoTitle5>
                     {totalSupply == 10000 ? <LogoTitle5 style={{ color: '#006BF9', fontSize: 12, width: '100%' }}>Buy on OpenSea</LogoTitle5> : ""}
                     <CalContent1 style={{ width: '100%', marginTop: 30 }}>
@@ -242,15 +240,15 @@ const Footer: React.FC<Props> = ({ limitItemNum, ownEthValue, changeAmount, amou
                         <LogoTitle1>{totalSupply == 0 ? 0 : totalSupply * 100 / limitItemNum}%</LogoTitle1>
                     </CalContent1>
                 </CalArea>
-            </FooterContainer>
+            </FooterContainer> */}
             <SocialArea>
                 <IconList>
-                    <a target="_blank" href="https://twitter.com/ShibaSocietyNFT"><SocialIcon src={telegramIcon} /></a>
-                    <a target="_blank" href="https://discord.gg/d9K7FXF4YB"><SocialIcon src={discardIcon} /></a>
-                    <a target="_blank" href="https://opensea.io/collection/shiba-society"><SocialIcon src={lineIcon} /></a>
+                    <a target="_blank" href=""><SocialIcon src={telegramIcon} /></a>
+                    <a target="_blank" href=""><SocialIcon src={discardIcon} /></a>
+                    <a target="_blank" href=""><SocialIcon src={lineIcon} /></a>
                 </IconList>
                 <SocialTxt>
-                    <LogoTitle><a target="_blank" href="https://etherscan.io/address/0x6a08e1D5160E204fC4648B13b9E7b0E05554D7C5">SMART CONTRACT</a></LogoTitle>
+                    <LogoTitle><a target="_blank" href="">SMART CONTRACT</a></LogoTitle>
                 </SocialTxt>
             </SocialArea>
         </div>

@@ -46,7 +46,7 @@ const OutlineButton = styled.button`
     border-radius: 5px;
     color: rgb(${colors.fontColor});
     font-size:46px;
-    background: #D35BFF;
+    background: black;
     margin: -15% 0;
     transition: all 0.2s ease-out;
     @media (max-width: 720px) {
@@ -96,7 +96,7 @@ function BannerContent() {
         <div style={{ alignItems: 'center', justifyContent: 'center', width: '100%', paddingBottom: '12%' }}>
             <BannerImg src={bannerImage} />
             <div style={{ alignItems: 'center', justifyContent: 'center', width: '100%', display: 'flex', marginTop: '-12%' }}>
-                <OutlineButton><a href="#footer">Mint now</a></OutlineButton>
+                <OutlineButton><a href="/"></a></OutlineButton>
             </div>
             <IconList style={{ marginTop: '2%' }}>
                 <SocialTag target="_blank" href="https://discord.gg/d9K7FXF4YB"><SocialIcon src={discardIcon} ></SocialIcon></SocialTag>

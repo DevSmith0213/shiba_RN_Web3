@@ -230,7 +230,7 @@ function App() {
       <ImageContainer1 url={100} first={false} last={true} title="$30,000 Successful Launch Giveaway!" description="Launch success! To reward our early adopters, a random selection of 30 SHIBBYS will be airdropped, with $1000 worth of ETH each into their owner's wallets. The more SHIBBYS you own, the higher your chances of winning the giveaway! Now, off to the moon Shiba Society!" />
       <MintArea />
       <ImageContainer2 title="FAIR DROP" description1="No whitelists, no free airdrops, no pricing tiers, even us founders get none." description2="All 1st generation SHIBBYS will be all sold at a price of 0.068 ETH." description3={["All future releases will be voted by our community on our ", <a target="_blank" href="https://discord.gg/d9K7FXF4YB">Discord</a>, " and announced via", <a style={{ color: '#004aad' }} target="_blank" href="https://twitter.com/ShibaSocietyNFT">Twitter.</a>]} />
-      <TeamMember url={character1} url1={character2} title="TEAM MEMBERS" />
+      {/* <TeamMember url={character1} url1={character2} title="TEAM MEMBERS" /> */}
       <Footer limitItemNum={limitItemNum} ownEthValue={ownEthValue} changeAmount={changeAmount} amount={amount} getMaxValue={getMaxValue} totalPrice={totalPrice} totalSupply={totalSupply} buyHandler={buyHandler} />
     </ScreenWrapper>
   )
