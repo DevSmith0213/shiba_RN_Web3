@@ -12,9 +12,9 @@ const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
         flexDirection: 'row',
-        [theme.breakpoints.down('sm')]: {
-            flexDirection: 'column-reverse',
-        },
+        // [theme.breakpoints.down('sm')]: {
+        //     flexDirection: 'column-reverse',
+        // },
     },
     textCont: {
         display: 'flex',
