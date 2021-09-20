@@ -94,16 +94,16 @@ const ImageContainer = () => {
         <Container>
             <Title id="FAQ" style={{ width: '100%', textAlign: 'center', marginTop: 70 }}>Frequently Asked Questions</Title>
             <ContentToggleButton
-                title="How and where can I purchase a SHIBBY?"
-                description1="The first 10,000 SHIBBYS can only be minted on our website for 0.068 ETH each and there is a limit of 10 SHIBBYS per transaction. We recommend using Metamask to mint our SHIBBYS."
-                description2={["Once all 10,000 SHIBBYS are minted they can only be purchased via the secondary market on https://opensea.io/. Purchasers will then be able to refresh their metadata on their individual SHIBBY profile on https://opensea.io/ to reveal their SHIBBY. You can also see what is for sale and who wants to trade their SHIBBYS on our ", <a style={{color:'#004aad'}} target="_blank" href="https://discord.gg/d9K7FXF4YB">Discord</a>,  " server."]}
+                title="How and where can I purchase a SOLGhost?"
+                description1="The first 10,000 SOLGhostS can only be minted on our website for 0.068 ETH each and there is a limit of 10 SOLGhostS per transaction. We recommend using Metamask to mint our SOLGhostS."
+                description2={["Once all 10,000 SOLGhostS are minted they can only be purchased via the secondary market on https://opensea.io/. Purchasers will then be able to refresh their metadata on their individual SOLGhost profile on https://opensea.io/ to reveal their SOLGhost. You can also see what is for sale and who wants to trade their SOLGhostS on our ", <a style={{color:'#004aad'}} target="_blank" href="https://discord.gg/d9K7FXF4YB">Discord</a>,  " server."]}
                 isHide={isHide1}
                 openTxt={() => setIsHide1(!isHide1)}
             />
             <ContentToggleButton 
-                title="I minted but can only see a poster saying my SHIBBY is lost!" 
+                title="I minted but can only see a poster saying my SOLGhost is lost!" 
                 isHide={isHide2} 
-                description1="Don't fret! All minted SHIBBYS from our website will be a blind and unreleased version until all 10,000 SHIBBYS have been sold."
+                description1="Don't fret! All minted SOLGhostS from our website will be a blind and unreleased version until all 10,000 SOLGhostS have been sold."
                 description2=""
                 openTxt={() => setIsHide2(!isHide2)} 
             />
@@ -124,14 +124,14 @@ const ImageContainer = () => {
             <ContentToggleButton 
                 title="What is the royalty %?" 
                 isHide={isHide5} 
-                description1="The royalty fee for every transaction is 2.5% and all funds will be used to further develop and improve the Shiba Society ecosystem. The more the SHIBBYS that are traded, the more the system improves!"
+                description1="The royalty fee for every transaction is 2.5% and all funds will be used to further develop and improve the Sol Ghost Society ecosystem. The more the SOLGhostS that are traded, the more the system improves!"
                 description2="We have provided the royalty wallet address here to provide full transparency of transactions of which will support improved governance within our community."
                 openTxt={() => setIsHide5(!isHide5)} 
             />
             <ContentToggleButton 
                 title="How to contact us" 
                 isHide={isHide6} 
-                description1={["The Shiba Society team are best contactable via our ", <a style={{color:'#004aad'}} target="_blank" href="https://discord.gg/d9K7FXF4YB">Discord</a>, " and ", <a style={{color:'#004aad'}} target="_blank" href="https://twitter.com/ShibaSocietyNFT">Twitter.</a>," channels. Partnerships, collaborations, new ideas, or even if you just need someone to talk to, our Shibby ears are hear for you, pun intended!"]}
+                description1={["The Society team are best contactable via our ", <a style={{color:'#004aad'}} target="_blank" href="https://discord.gg/d9K7FXF4YB">Discord</a>, " and ", <a style={{color:'#004aad'}} target="_blank" href="">Twitter.</a>," channels. Partnerships, collaborations, new ideas, or even if you just need someone to talk to, our SOLGhost ears are hear for you, pun intended!"]}
                 description2=""
                 openTxt={() => setIsHide6(!isHide6)} 
             />

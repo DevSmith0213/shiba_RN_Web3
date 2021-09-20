@@ -112,7 +112,7 @@ const ImageContainer1: React.FC<Props> = ({ url, url1, title }) => {
                     </div>
                 </ContentArea>
             </ContentList>
-            <Title style={{ width: '100%', textAlign: 'center' }}>BUY SHIBBYS</Title>
+            <Title style={{ width: '100%', textAlign: 'center' }}>BUY SOLGhostS</Title>
         </Container >
     )
 }

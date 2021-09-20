@@ -99,8 +99,8 @@ function BannerContent() {
                 <OutlineButton><a href="/"></a></OutlineButton>
             </div>
             <IconList style={{ marginTop: '2%' }}>
-                <SocialTag target="_blank" href="https://discord.gg/d9K7FXF4YB"><SocialIcon src={discardIcon} ></SocialIcon></SocialTag>
-                <SocialTag target="_blank" href="https://twitter.com/ShibaSocietyNFT"><SocialIcon src={telegramIcon} ></SocialIcon></SocialTag>
+                <SocialTag target="_blank" href=""><SocialIcon src={discardIcon} ></SocialIcon></SocialTag>
+                <SocialTag target="_blank" href=""><SocialIcon src={telegramIcon} ></SocialIcon></SocialTag>
             </IconList>
         </div >
     )

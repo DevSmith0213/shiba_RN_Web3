@@ -56,7 +56,7 @@ const ImageContainer = () => {
     const classes = useStyles();
     return (
         <Container>
-            <Title style={{ width: '100%', textAlign: 'center' }}>RELEASE THE SHIBA ARMY</Title>
+            <Title style={{ width: '100%', textAlign: 'center' }}>RELEASE THE Sol Ghost</Title>
             <Description1>
                 Who are we?
             </Description1>
@@ -70,7 +70,7 @@ const ImageContainer = () => {
                 Our strength comes from our community, loyal, protective, and highly intelligent. Some call us the Doge killer but it is only due to our competitive nature, known for our bold and fiery personalities. Competition is what breeds continual improvement.
             </Description>
             <Description>
-                We are Shiba Society and it's time for our calling. Release the Shiba Army!
+                We are Sol Ghost and it's time for our calling. Release the Sol Ghost!
             </Description>
         </Container>
     )
